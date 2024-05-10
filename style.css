@@ -6,6 +6,11 @@
 body {
     font-family: "Poppins", sans-serif;
 }
+.footer{
+    background-color: black;
+    padding: 15px 0;
+    text-align: center;
+}
 
 .cabecalho {
     background-color: #383D58;
@@ -64,5 +69,6 @@ body {
     padding: 50px 0;
 }
 .estudante-todos{
-
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
 }
